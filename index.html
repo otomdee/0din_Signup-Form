@@ -9,43 +9,51 @@
 <body>
     <div id="left">
         <img src="housesUnsplash.jpg" alt="upward facing shot of houses">
+        <div id="logo">
+            <img src="home-high-resolution-logo-white-transparent.png" alt="logo">
+        </div>
+        <div id="imgCredit">
+            <p>Photo by <a href="https://unsplash.com/@dm_david?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">DM David</a> 
+                on <a href="https://unsplash.com/photos/a-staircase-leading-to-a-second-story-of-a-building-4Nxr70qvni4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+                Unsplash</a>
+            </p>
+        </div>
     </div>
     <div id="right">
         <div id="header">
-            <h3>The best housing service! You know you need something like this in your life to help you realize your deepest dreams.
-                Sign up now to get started.</h3><br>
-            <h3>You <em>know</em> you want to.</h3>
+            <span>The best housing service! You know you need something like this in your life to help you realize your deepest dreams.
+                Sign up now to get started.</span> <br><br>
+            <span>You <em>know</em> you want to.</span>
         </div>
-        <div id="formDiv">
-        
+        <div id="formDiv">        
             <form id="form" action="index.html" method="post">
             <fieldset>
-                <legend>Let's do this!</legend>
-                <div>
-                    <div id="firstNameDiv">
+                <legend>Sign Up:</legend>
+                <div id="firstWrap">
+                    <div id="firstNameDiv" class="field">
                     <label for="firstname">FIRST NAME</label>
                     <input type="text" id="firstname" name="firstname"/>
                 </div>
-                <div id="lastNameDiv">
+                <div id="lastNameDiv" class="field">
                     <label for="lastname">LAST NAME</label>
                     <input type="text" id="lastname" name="lastname"/>
                 </div>
                 </div>
                 <div>
-                    <div id="emailDiv">
+                    <div id="emailDiv" class="field">
                     <label for="email">EMAIL</label>
                     <input type="email" id="email" name="email"/>
                 </div>
-                <div id="phoneDiv">
+                <div id="phoneDiv" class="field">
                     <label for="number">PHONE NUMBER</label>
                     <input type="number" id="number" name="number"/>
                 </div>
             </div>
-                <div><div id="password">
+                <div><div id="password" class="field">
                     <label for="password">PASSWORD</label>
                     <input type="text" id="password" name="password"/>
                 </div>
-                <div id="passwordConfirm">
+                <div id="passwordConfirm" class="field">
                     <label for="passwordConfirm">CONFIRM PASSWORD</label>
                     <input type="text" id="passwordConfirm" name="passwordConfirm"/>
                 </div>
